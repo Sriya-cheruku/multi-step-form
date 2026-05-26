@@ -1,10 +1,10 @@
-import thankYouIcon from '../assets/images/icon-thank-you.svg'
+import ThankYou from '../assets/images/icon-thank-you.svg'
 
-function Thankyou() {
+function ThankYou() {
   return (
     <div className='thank-you'>
       <img
-        src={thankYouIcon}
+        src={ThankYou}
         alt=''
       />
 
@@ -21,4 +21,4 @@ function Thankyou() {
   )
 }
 
-export default Thankyou
+export default ThankYou
